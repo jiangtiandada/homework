@@ -295,14 +295,14 @@
             //}
             ////Console.WriteLine($"棋盘上的总数为{count}");
             //Console.WriteLine($"棋盘上的重量为{count}");
-            double n = 50000;
-            int count = 0;
-            while (n > 5000)
-            {
-                n *= 0.95;
-                Console.WriteLine($"第{++count}次后，n的值为{n}");
-            }
-            Console.WriteLine($"总共能够扣除{count}次");
+            //double n = 50000;
+            //int count = 0;
+            //while (n > 5000)
+            //{
+            //    n *= 0.95;
+            //    Console.WriteLine($"第{++count}次后，n的值为{n}");
+            //}
+            //Console.WriteLine($"总共能够扣除{count}次");
             //int count = 1;
             //for(int i = 6; i > 0; i--)
             //{
@@ -313,7 +313,7 @@
             //double sum = 10;
             //for (int i = 0; i < 10; i++)
             //{
-            //    count += sum * 0.5;
+            //    count += sum * 1.5;
             //    sum *= 0.5;
             //}
             //Console.WriteLine($"皮球总共经历了{count}米");
