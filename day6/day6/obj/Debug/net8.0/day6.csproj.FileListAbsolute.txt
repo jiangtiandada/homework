@@ -1,0 +1,15 @@
+D:\Desktop\jt资料\code\day6\day6\bin\Debug\net8.0\day6.exe
+D:\Desktop\jt资料\code\day6\day6\bin\Debug\net8.0\day6.deps.json
+D:\Desktop\jt资料\code\day6\day6\bin\Debug\net8.0\day6.runtimeconfig.json
+D:\Desktop\jt资料\code\day6\day6\bin\Debug\net8.0\day6.dll
+D:\Desktop\jt资料\code\day6\day6\bin\Debug\net8.0\day6.pdb
+D:\Desktop\jt资料\code\day6\day6\obj\Debug\net8.0\day6.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\jt资料\code\day6\day6\obj\Debug\net8.0\day6.AssemblyInfoInputs.cache
+D:\Desktop\jt资料\code\day6\day6\obj\Debug\net8.0\day6.AssemblyInfo.cs
+D:\Desktop\jt资料\code\day6\day6\obj\Debug\net8.0\day6.csproj.CoreCompileInputs.cache
+D:\Desktop\jt资料\code\day6\day6\obj\Debug\net8.0\day6.sourcelink.json
+D:\Desktop\jt资料\code\day6\day6\obj\Debug\net8.0\day6.dll
+D:\Desktop\jt资料\code\day6\day6\obj\Debug\net8.0\refint\day6.dll
+D:\Desktop\jt资料\code\day6\day6\obj\Debug\net8.0\day6.pdb
+D:\Desktop\jt资料\code\day6\day6\obj\Debug\net8.0\day6.genruntimeconfig.cache
+D:\Desktop\jt资料\code\day6\day6\obj\Debug\net8.0\ref\day6.dll
