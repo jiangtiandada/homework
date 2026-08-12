@@ -1,5 +1,5 @@
 ﻿using System.Text.Json;
-
+delegate int myStlye(int a, int b);
 namespace day8
 {
     internal class Program
@@ -118,6 +118,23 @@ namespace day8
             //}
             //foundn(n);
             //Console.WriteLine(n);
+            /**********************************************************************/
+            //myStlye add = (int a, int b) =>
+            //{
+            //    return a+b;
+            //};
+            //Console.WriteLine(add(10,20));
+            /**********************************************************************/
+            //bool issu(int n)
+            //{
+            //    for(int i = 2; i < n; i++)
+            //    {
+            //        if (n % i == 0) return false;
+            //    }
+            //    return true;
+            //}
+            //Console.WriteLine(issu(23));
+            
         }
     }
 }
