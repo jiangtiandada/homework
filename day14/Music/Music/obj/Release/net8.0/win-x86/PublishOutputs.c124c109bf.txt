@@ -1,0 +1,2 @@
+D:\Desktop\jt资料\code\day14\Music\Music\bin\Release\net8.0\publish\win-x86\Music.pdb
+D:\Desktop\jt资料\code\day14\Music\Music\bin\Release\net8.0\publish\win-x86\Music.exe

@@ -80,6 +80,8 @@ namespace day10
                 Console.WriteLine("3: 删除书籍");
                 Console.WriteLine("4: 查找单个书籍");
                 Console.WriteLine("5: 查找全部书籍");
+                Console.WriteLine("6: 借阅书籍");
+                Console.WriteLine("7: 归还书籍");
                 Console.WriteLine("0: 退出");
                 num = Console.ReadLine();
                 switch (num)
@@ -107,7 +109,7 @@ namespace day10
                     case "2":
                         Console.WriteLine("你要修改的书籍");
                         name = Console.ReadLine();
-                        Console.WriteLine("请依次输入你要修改的内容（author isBorrow mark price）");
+                        Console.WriteLine("请依次输入你想要修改的内容（author mark price）");
                         string str = Console.ReadLine();
                         string[] strArr = str.Split();
                         Console.WriteLine("请按照你输入的顺序输入修改的内容(中间用空格隔开)");
@@ -127,6 +129,14 @@ namespace day10
                         break;
                     case "5":
                         library.SearchBook();
+                        break;
+                    case "6":
+                        string borrowRes = library.borrow();
+                        Console.WriteLine(borrowRes);
+                        break;
+                    case "7":
+                        string RturnRes = library.ReturnBook();
+                        Console.WriteLine(RturnRes);
                         break;
                     case "0":
                         Console.WriteLine("--退出--");

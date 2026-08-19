@@ -2,22 +2,22 @@
   {
     "name": "\u4E09\u56FD\u6F14\u4E49",
     "author": "\u7F57\u8D2F\u4E2D",
-    "isBorrow": "false",
+    "isBorrow": false,
     "id": 0.11175187637771267,
     "mark": "\u6218\u4E89",
-    "price": 56.09
+    "price": 99.9999
   },
   {
     "name": "\u7EA2\u697C\u68A6",
     "author": "\u66F9\u96EA\u82B9",
-    "isBorrow": false,
+    "isBorrow": true,
     "id": 0.49605869986334383,
     "mark": "\u8A00\u60C5",
     "price": 99
   },
   {
     "name": "\u897F\u6E38\u8BB0",
-    "author": "\u65BD\u8010\u5EB5",
+    "author": "\u5434\u627F\u6069",
     "isBorrow": false,
     "id": 0.38467120673334965,
     "mark": "\u9B54\u5E7B",

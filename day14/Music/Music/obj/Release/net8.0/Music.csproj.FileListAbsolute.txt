@@ -1,0 +1,15 @@
+D:\Desktop\jt资料\code\day14\Music\Music\bin\Release\net8.0\Music.exe
+D:\Desktop\jt资料\code\day14\Music\Music\bin\Release\net8.0\Music.deps.json
+D:\Desktop\jt资料\code\day14\Music\Music\bin\Release\net8.0\Music.runtimeconfig.json
+D:\Desktop\jt资料\code\day14\Music\Music\bin\Release\net8.0\Music.dll
+D:\Desktop\jt资料\code\day14\Music\Music\bin\Release\net8.0\Music.pdb
+D:\Desktop\jt资料\code\day14\Music\Music\obj\Release\net8.0\Music.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\jt资料\code\day14\Music\Music\obj\Release\net8.0\Music.AssemblyInfoInputs.cache
+D:\Desktop\jt资料\code\day14\Music\Music\obj\Release\net8.0\Music.AssemblyInfo.cs
+D:\Desktop\jt资料\code\day14\Music\Music\obj\Release\net8.0\Music.csproj.CoreCompileInputs.cache
+D:\Desktop\jt资料\code\day14\Music\Music\obj\Release\net8.0\Music.sourcelink.json
+D:\Desktop\jt资料\code\day14\Music\Music\obj\Release\net8.0\Music.dll
+D:\Desktop\jt资料\code\day14\Music\Music\obj\Release\net8.0\refint\Music.dll
+D:\Desktop\jt资料\code\day14\Music\Music\obj\Release\net8.0\Music.pdb
+D:\Desktop\jt资料\code\day14\Music\Music\obj\Release\net8.0\Music.genruntimeconfig.cache
+D:\Desktop\jt资料\code\day14\Music\Music\obj\Release\net8.0\ref\Music.dll

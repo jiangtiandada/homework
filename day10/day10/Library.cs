@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Text.Json;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace day10
@@ -34,22 +35,29 @@ namespace day10
                     {
                         bool istrue1 = false;
                         foreach (var item in bookLists[i].Keys) { 
-                            if(item == strArr1[j])
+                            if(item == strArr1[j]&&item!="price")
                             {
                                 istrue1 = true;
                                 bookLists[i][strArr1[j]] = strArr2 [j];
+                            }
+                            if(item == strArr1[j] && item == "price")
+                            {
+                                istrue1 = true;
+                                string zstr = @"^[1-9]+[0-9]*(\.[0-9]+)?$";
+                                if (Regex.IsMatch(strArr2[j], zstr)) bookLists[i][strArr1[j]] = double.Parse(strArr2[j]);
+                                else Console.WriteLine("价格错误无法更新该数值");
                             }
                         }
                         if(!istrue1) Console.WriteLine($"{strArr1[j]}输入错误无法更新该数值");
                     }
                     Console.WriteLine("更新成功");
                 }
-                if (!isTure)
-                {
-                    Console.WriteLine("没有这个书籍信息请您去添加");
-                }
-                File.WriteAllText(path, JsonSerializer.Serialize(bookLists, DefaultOptions));
             }
+            if (!isTure)
+            {
+                Console.WriteLine("没有这个书籍信息请您去添加");
+            }
+            File.WriteAllText(path, JsonSerializer.Serialize(bookLists, DefaultOptions));
         }
         public void delete(string str)
         {
@@ -78,6 +86,41 @@ namespace day10
             Console.WriteLine("帮您查询");
             foreach (var item in bookLists) foreach(var item2 in item) Console.WriteLine(item2);
              Console.WriteLine("书籍已全部找出");
+        }
+        public string borrow()
+        {
+            bookLists = JsonSerializer.Deserialize < List < Dictionary<string, dynamic>>>(File.ReadAllText(path));
+            List<Dictionary<string, dynamic>> list = new();
+            list = bookLists.FindAll(item => item["isBorrow"].GetBoolean() == false);
+            foreach (var item in list) {
+                Console.WriteLine($"{item["name"]}--{item["author"]}--{item["isBorrow"]}--{item["mark"]}--{item["price"]}");
+            }
+            Console.WriteLine("请输入你要借阅的书籍");
+            string name = Console.ReadLine();
+            Dictionary<string, dynamic> Dic = new();
+            Dic = list.Find(item => item["name"].ToString() == name);
+            if (Dic == null) return "你的书籍不在借阅范围内";
+            Dic["isBorrow"] = true;
+            File.WriteAllText(path, JsonSerializer.Serialize(bookLists, DefaultOptions));
+            return "借阅成功";
+        }
+        public string ReturnBook()
+        {
+            bookLists = JsonSerializer.Deserialize<List<Dictionary<string, dynamic>>>(File.ReadAllText(path));
+            List<Dictionary<string, dynamic>> list = new();
+            list = bookLists.FindAll(item => item["isBorrow"].GetBoolean() == true);
+            foreach (var item in list)
+            {
+                Console.WriteLine($"{item["name"]}--{item["author"]}--{item["isBorrow"]}--{item["mark"]}--{item["price"]}");
+            }
+            Console.WriteLine("请输入你要归还的书籍");
+            string name = Console.ReadLine();
+            Dictionary<string, dynamic> Dic = new();
+            Dic = list.Find(item => item["name"].ToString() == name);
+            if (Dic == null) return "你的书籍不在归还范围内";
+            Dic["isBorrow"] = false;
+            File.WriteAllText(path, JsonSerializer.Serialize(bookLists, DefaultOptions));
+            return "归还成功";
         }
         public Book(string str)
         {
