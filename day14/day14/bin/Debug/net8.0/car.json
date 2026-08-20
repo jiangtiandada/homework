@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "num": "粤B123456",
+    "mark": "轿车",
+    "isBorrow": true,
+    "price": 999
+  },
+  {
+    "id": 2,
+    "num": "粤B88888",
+    "mark": "轿车",
+    "isBorrow": false,
+    "price": 9999
+  }
+]
