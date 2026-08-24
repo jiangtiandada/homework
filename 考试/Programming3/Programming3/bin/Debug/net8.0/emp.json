@@ -1,0 +1,14 @@
+[
+  {
+    "_EmpId": 1,
+    "_EmpName": "张三",
+    "_Department": "工程",
+    "_Salary": 9999
+  },
+  {
+    "_EmpId": 2,
+    "_EmpName": "李四",
+    "_Department": "医疗",
+    "_Salary": 9999
+  }
+]

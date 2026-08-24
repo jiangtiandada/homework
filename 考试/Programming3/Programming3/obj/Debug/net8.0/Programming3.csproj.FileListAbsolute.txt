@@ -1,0 +1,15 @@
+D:\Desktop\jt资料\code\考试\Programming3\Programming3\bin\Debug\net8.0\Programming3.exe
+D:\Desktop\jt资料\code\考试\Programming3\Programming3\bin\Debug\net8.0\Programming3.deps.json
+D:\Desktop\jt资料\code\考试\Programming3\Programming3\bin\Debug\net8.0\Programming3.runtimeconfig.json
+D:\Desktop\jt资料\code\考试\Programming3\Programming3\bin\Debug\net8.0\Programming3.dll
+D:\Desktop\jt资料\code\考试\Programming3\Programming3\bin\Debug\net8.0\Programming3.pdb
+D:\Desktop\jt资料\code\考试\Programming3\Programming3\obj\Debug\net8.0\Programming3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\jt资料\code\考试\Programming3\Programming3\obj\Debug\net8.0\Programming3.AssemblyInfoInputs.cache
+D:\Desktop\jt资料\code\考试\Programming3\Programming3\obj\Debug\net8.0\Programming3.AssemblyInfo.cs
+D:\Desktop\jt资料\code\考试\Programming3\Programming3\obj\Debug\net8.0\Programming3.csproj.CoreCompileInputs.cache
+D:\Desktop\jt资料\code\考试\Programming3\Programming3\obj\Debug\net8.0\Programming3.sourcelink.json
+D:\Desktop\jt资料\code\考试\Programming3\Programming3\obj\Debug\net8.0\Programming3.dll
+D:\Desktop\jt资料\code\考试\Programming3\Programming3\obj\Debug\net8.0\refint\Programming3.dll
+D:\Desktop\jt资料\code\考试\Programming3\Programming3\obj\Debug\net8.0\Programming3.pdb
+D:\Desktop\jt资料\code\考试\Programming3\Programming3\obj\Debug\net8.0\Programming3.genruntimeconfig.cache
+D:\Desktop\jt资料\code\考试\Programming3\Programming3\obj\Debug\net8.0\ref\Programming3.dll
