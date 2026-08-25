@@ -1,0 +1,16 @@
+D:\Desktop\jt资料\WFcode\day1\bin\Debug\net8.0-windows\day1.exe
+D:\Desktop\jt资料\WFcode\day1\bin\Debug\net8.0-windows\day1.deps.json
+D:\Desktop\jt资料\WFcode\day1\bin\Debug\net8.0-windows\day1.runtimeconfig.json
+D:\Desktop\jt资料\WFcode\day1\bin\Debug\net8.0-windows\day1.dll
+D:\Desktop\jt资料\WFcode\day1\bin\Debug\net8.0-windows\day1.pdb
+D:\Desktop\jt资料\WFcode\day1\obj\Debug\net8.0-windows\day1.Form1.resources
+D:\Desktop\jt资料\WFcode\day1\obj\Debug\net8.0-windows\day1.csproj.GenerateResource.cache
+D:\Desktop\jt资料\WFcode\day1\obj\Debug\net8.0-windows\day1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\jt资料\WFcode\day1\obj\Debug\net8.0-windows\day1.AssemblyInfoInputs.cache
+D:\Desktop\jt资料\WFcode\day1\obj\Debug\net8.0-windows\day1.AssemblyInfo.cs
+D:\Desktop\jt资料\WFcode\day1\obj\Debug\net8.0-windows\day1.csproj.CoreCompileInputs.cache
+D:\Desktop\jt资料\WFcode\day1\obj\Debug\net8.0-windows\day1.dll
+D:\Desktop\jt资料\WFcode\day1\obj\Debug\net8.0-windows\refint\day1.dll
+D:\Desktop\jt资料\WFcode\day1\obj\Debug\net8.0-windows\day1.pdb
+D:\Desktop\jt资料\WFcode\day1\obj\Debug\net8.0-windows\day1.genruntimeconfig.cache
+D:\Desktop\jt资料\WFcode\day1\obj\Debug\net8.0-windows\ref\day1.dll
